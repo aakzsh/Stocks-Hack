@@ -14,9 +14,9 @@
 <div class="topnav">
   <a href="#home" class="active">Home</a>
   <div id="myLinks">
-    <a href="#">About</a>
-    <a href="#contact">News</a>
-    <a href="#about">Sources</a>
+    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <a href="sources.html">Sources</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -37,10 +37,24 @@
 <div class="pred-box">
 <center>
   <p>Fill fields to get future predictions</p>
+<br><br>
+  <label for="cars">Select your Stock Exchange:</label>
+ <select name="stockname" id="sname">
+   <option value="nyse">New York Stock Exchange</option>
+   <option value="nasdaq">Nasdaq</option>
+   <option value="bse">Bombay Stock Exchange</option>
+   <option value="jeg">Japan Exchange Group</option>
+      <option value="lse">	London Stock Exchange</option>
+         <option value=hkse">	Hong Kong Stock Exchange</option>
+            <option value="euronext">	Euronext</option>
+               <option value="tse">	Toronto Stock Exchange</option>
+               <option value="nse">National Stock Exchange</option>
+               <option value="db">	Deutsche Börse</option>
 
-  <input type="checkbox" name="" value="">
-<br>
-  <input type="date" name="" value="">
+ </select>
+<br><br>
+<p>Select Date: <input type="date" name="" value=""></p>
+
   <br>
   <input type="submit" name="" value="SUBMIT">
   </center>
@@ -49,7 +63,7 @@
 <center>
   <div class="live-points">
   <center>
-    <p>LIVE SCORES</p>
+    <p>STOCK MARKET LIVE</p>
     </center>
     <div class="graph">
       <img src="https://www.statisticshowto.com/wp-content/uploads/2013/03/graph2.jpg" alt="" width="35%">
