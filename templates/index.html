@@ -36,25 +36,28 @@
 <center>
   <p>Fill fields to get future predictions</p>
 <br><br>
-  <label for="cars">Select your Stock Exchange:</label>
- <select name="stockname" id="sname">
-   <option value="nyse">New York Stock Exchange</option>
-   <option value="nasdaq">Nasdaq</option>
-   <option value="bse">Bombay Stock Exchange</option>
-   <option value="jeg">Japan Exchange Group</option>
-      <option value="lse">	London Stock Exchange</option>
-         <option value=hkse">	Hong Kong Stock Exchange</option>
-            <option value="euronext">	Euronext</option>
-               <option value="tse">	Toronto Stock Exchange</option>
-               <option value="nse">National Stock Exchange</option>
-               <option value="db">	Deutsche Börse</option>
+  <form id="form" >
+    <label for="selection">Select your Stock Exchange:</label>
+   <select name="stockname" id="sname" value="stonks">
+     <option value="nyse">New York Stock Exchange</option>
+     <option value="nasdaq">Nasdaq</option>
+     <option value="bse">Bombay Stock Exchange</option>
+     <option value="jeg">Japan Exchange Group</option>
+        <option value="lse">	London Stock Exchange</option>
+           <option value=hkse">	Hong Kong Stock Exchange</option>
+              <option value="euronext">	Euronext</option>
+                 <option value="tse">	Toronto Stock Exchange</option>
+                 <option value="nse">National Stock Exchange</option>
+                 <option value="db">	Deutsche Börse</option>
 
- </select>
-<br><br>
-<p>Select Date: <input type="date" name="" value=""></p>
+   </select>
+  <br><br>
+  <p>Select Date: <input type="date" name="" value="datesel" id="lolol"></p>
 
-  <br>
-  <input type="submit" name="" value="SUBMIT">
+    <br>
+
+    <input type="submit" name="" value="SUBMIT" onclick="predict()">
+  </form>
   </center>
 </div>
 <br><br><br>

@@ -158,13 +158,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#EC04FF",
 		dataPoints: [
-		{ x: new Date(2021, 3, 10), y: 89.20 },
-			{ x: new Date(2021, 3, 11), y: 89.20 },
-			{ x: new Date(2021, 3, 12), y: 89.20 },
-			{ x: new Date(2021, 3, 13), y: 89.15 },
-			{ x: new Date(2021, 3, 14), y: 90.20 },
-			{ x: new Date(2021, 3, 15), y: 90.20 },
-			{ x: new Date(2021, 3, 16), y: 89.85 },
+		{ x: new Date(2021, 3, 10), y: 1215.54 },
+			{ x: new Date(2021, 3, 11), y: 1215.54 },
+			{ x: new Date(2021, 3, 12), y: 1215.54 },
+			{ x: new Date(2021, 3, 13), y: 1215.54 },
+			{ x: new Date(2021, 3, 14), y: 1215.76 },
+			{ x: new Date(2021, 3, 15), y: 1223.13 },
+			{ x: new Date(2021, 3, 16), y: 1229.68 },
 
 		]
 	},
@@ -233,4 +233,62 @@ function toogleDataSeries(e){
 	chart.render();
 }
 
+}
+
+
+
+function predict(){
+
+const date1 = new Date('2021-04-16');
+var date3 = document.getElementById("lolol").value;
+var date2 = new Date(date3);
+const diffTime = Math.abs(date2 - date1);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+var score;
+
+var name = document.getElementById("sname").value;
+
+if(name=="db"){
+    score = 147.25 + (diffDays*0.01835);
+  window.alert("The prediction is: " + score + diffDays);
+}
+
+else if(name=="nse"){
+  score = 14617.85 + (diffDays*1.715);
+  window.alert("The prediction is: " + score);
+}
+
+else if(name=="tse"){
+    score = 19380.68 + (diffDays*1.982);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="euronext"){
+    score = 1229 + (diffDays*0.1526);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="nyse"){
+    score = 16186.63 + (diffDays*1.6527);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="nasdaq"){
+    score = 14059.11 + (diffDays*1.332);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="bse"){
+    score = 49006.32 + (diffDays*5.5956);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="jeg"){
+  score = 2799 + (diffDays*0.8);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="lse"){
+    score = 7016.24 + (diffDays*0.0375);
+  window.alert("The prediction is: " + score);
+}
+else if(name=="hkse"){
+    score = 28827.17 + (diffDays*1.542);
+  window.alert("The prediction is: " + score);
+}
 }
