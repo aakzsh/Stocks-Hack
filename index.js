@@ -65,14 +65,15 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		markerType: "square",
 		xValueFormatString: "DD MMM, YYYY",
 		color: "green",
+
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+			{ x: new Date(2021, 3, 10), y: 13854.44 },
+			{ x: new Date(2021, 3, 11), y: 13854.44 },
+			{ x: new Date(2021, 3, 12), y: 13854.44 },
+			{ x: new Date(2021, 3, 13), y: 13902.45 },
+			{ x: new Date(2021, 3, 14), y: 14004.08 },
+			{ x: new Date(2021, 3, 15), y: 13983.23 },
+			{ x: new Date(2021, 3, 16), y: 14059.11 },
 
 		]
 	},
@@ -89,7 +90,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 			{ x: new Date(2021, 3, 12), y: 47883.38 },
 			{ x: new Date(2021, 3, 13), y: 48201.96 },
 			{ x: new Date(2021, 3, 14), y: 48201.96 },
-			{ x: new Date(2021, 3, 15), y: 43368.27 },
+			{ x: new Date(2021, 3, 15), y: 48368.27 },
 			{ x: new Date(2021, 3, 16), y: 49006.32 },
 
 		]
@@ -102,31 +103,32 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#1743E1",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+
+			{ x: new Date(2021, 3, 10), y: 2857 },
+			{ x: new Date(2021, 3, 11), y: 2857 },
+			{ x: new Date(2021, 3, 12), y: 2857 },
+			{ x: new Date(2021, 3, 13), y: 2809 },
+			{ x: new Date(2021, 3, 14), y: 2795 },
+			{ x: new Date(2021, 3, 15), y: 2766 },
+			{ x: new Date(2021, 3, 16), y: 2799 },
 
 		]
 	},
   {
 		type: "line",
 		showInLegend: true,
-		name: "LSE",
+		name: "FTSE LSE",
 		markerType: "square",
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#DEE117",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+			{ x: new Date(2021, 3, 10), y: 6877.52 },
+			{ x: new Date(2021, 3, 11), y: 6877.52 },
+			{ x: new Date(2021, 3, 12), y: 6877.52 },
+			{ x: new Date(2021, 3, 13), y: 6882.41 },
+			{ x: new Date(2021, 3, 14), y: 6888.94 },
+			{ x: new Date(2021, 3, 15), y: 6959.87 },
+			{ x: new Date(2021, 3, 16), y: 7016.24 },
 
 		]
 	},
@@ -138,13 +140,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#E18017",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+			{ x: new Date(2021, 3, 10), y: 28791.97 },
+			{ x: new Date(2021, 3, 11), y: 28791.97 },
+			{ x: new Date(2021, 3, 12), y: 28791.97 },
+			{ x: new Date(2021, 3, 13), y: 28718.06 },
+			{ x: new Date(2021, 3, 14), y: 28796.55 },
+			{ x: new Date(2021, 3, 15), y: 28693.75 },
+			{ x: new Date(2021, 3, 16), y: 28827.17 },
 
 		]
 	},
@@ -156,13 +158,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#EC04FF",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+		{ x: new Date(2021, 3, 10), y: 89.20 },
+			{ x: new Date(2021, 3, 11), y: 89.20 },
+			{ x: new Date(2021, 3, 12), y: 89.20 },
+			{ x: new Date(2021, 3, 13), y: 89.15 },
+			{ x: new Date(2021, 3, 14), y: 90.20 },
+			{ x: new Date(2021, 3, 15), y: 90.20 },
+			{ x: new Date(2021, 3, 16), y: 89.85 },
 
 		]
 	},
@@ -174,13 +176,14 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#FF0472",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+      { x: new Date(2021, 3, 10), y: 19220.05 },
+      { x: new Date(2021, 3, 11), y: 19220.05 },
+			{ x: new Date(2021, 3, 12), y: 19220.05 },
+			{ x: new Date(2021, 3, 13), y: 19249.32 },
+			{ x: new Date(2021, 3, 14), y: 19304.17 },
+			{ x: new Date(2021, 3, 15), y: 19272.87 },
+			{ x: new Date(2021, 3, 16), y: 19380.68 },
+
 
 		]
 	},
@@ -192,13 +195,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		xValueFormatString: "DD MMM, YYYY",
 		color: "#E1C0C0",
 		dataPoints: [
-			{ x: new Date(2021, 3, 10), y: 650 },
-			{ x: new Date(2021, 3, 11), y: 700 },
-			{ x: new Date(2021, 3, 12), y: 710 },
-			{ x: new Date(2021, 3, 13), y: 658 },
-			{ x: new Date(2021, 3, 14), y: 734 },
-			{ x: new Date(2021, 3, 15), y: 963 },
-			{ x: new Date(2021, 3, 16), y: 847 },
+			{ x: new Date(2021, 3, 10), y: 14455.65 },
+			{ x: new Date(2021, 3, 11), y: 14455.65 },
+			{ x: new Date(2021, 3, 12), y: 14455.65 },
+			{ x: new Date(2021, 3, 13), y: 14375.60 },
+			{ x: new Date(2021, 3, 14), y: 14375.60 },
+			{ x: new Date(2021, 3, 15), y: 14554.15 },
+			{ x: new Date(2021, 3, 16), y: 14616.95 },
 
 		]
 	},
@@ -208,13 +211,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		name: "DEUTSCHE",
 		lineDashType: "dash",
 		dataPoints: [
-    { x: new Date(2021, 3, 10), y: 650 },
-    { x: new Date(2021, 3, 11), y: 700 },
-    { x: new Date(2021, 3, 12), y: 710 },
-    { x: new Date(2021, 3, 13), y: 658 },
-    { x: new Date(2021, 3, 14), y: 734 },
-    { x: new Date(2021, 3, 15), y: 963 },
-    { x: new Date(2021, 3, 16), y: 847 },
+    { x: new Date(2021, 3, 10), y: 148.20 },
+    { x: new Date(2021, 3, 11), y: 148.20 },
+    { x: new Date(2021, 3, 12), y: 148.20 },
+    { x: new Date(2021, 3, 13), y: 147.95 },
+    { x: new Date(2021, 3, 14), y: 148 },
+    { x: new Date(2021, 3, 15), y: 148.75 },
+    { x: new Date(2021, 3, 16), y: 147.25 },
 
 		]
 	}]
