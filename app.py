@@ -20,9 +20,8 @@ def news():
     query_params = {
         "source": "bbc-news",
         "sortBy": "top",
-        "keywords": "elon",
-        "apiKey": "4dbc17e007ab436fb66416009dfb59a8",
-        "contains": "elon"
+
+        "apiKey": "413da310698e43d1a030760e85d5f556",
     }
     main_url = " https://newsapi.org/v1/articles"
 
@@ -66,3 +65,4 @@ if __name__ == '__main__':
 
 
 
+# 4dbc17e007ab436fb66416009dfb59a8
